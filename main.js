@@ -61,8 +61,8 @@ toggleUserState(users, "Lux", logger2);
 /*
  * Должно работать так
  */
-toggleUserState2(users, "Mango").then(logger2);
-toggleUserState2(users, "Lux").then(logger2);
+// toggleUserState2(users, "Mango").then(logger2);
+// toggleUserState2(users, "Lux").then(logger2);
 
 // ## Задание 3
 
@@ -128,18 +128,18 @@ makeTransaction({ id: 73, amount: 100 }, logSuccess, logError);
 /*
  * Должно работать так
  */
-makeTransaction2({ id: 70, amount: 150 })
-    .then(logSuccess2)
-    .catch(logError);
+// makeTransaction2({ id: 70, amount: 150 })
+//     .then(logSuccess2)
+//     .catch(logError);
 
-makeTransaction2({ id: 71, amount: 230 })
-    .then(logSuccess2)
-    .catch(logError);
+// makeTransaction2({ id: 71, amount: 230 })
+//     .then(logSuccess2)
+//     .catch(logError);
 
-makeTransaction2({ id: 72, amount: 75 })
-    .then(logSuccess2)
-    .catch(logError);
+// makeTransaction2({ id: 72, amount: 75 })
+//     .then(logSuccess2)
+//     .catch(logError);
 
-makeTransaction2({ id: 73, amount: 100 })
-    .then(logSuccess2)
-    .catch(logError);
+// makeTransaction2({ id: 73, amount: 100 })
+//     .then(logSuccess2)
+//     .catch(logError);
